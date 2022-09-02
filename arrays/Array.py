@@ -53,6 +53,16 @@ import numpy as np
 # 
 # =============================================================================
 
+# Trabalhando com 2 arrays
+# =============================================================================
+# copy() para copiar o conteudo
+# union1d() para juntar arrays sem valores repetidos
+# intersect1d() para pegar valores em comum entre arrays
+# unique() para pegar apenas valores sem serem repetidos
+# setdiff1d() pega valores que tem em um array e nao tem em outro
+# 
+# =============================================================================
+
 # Substituindo impares por 0 usando operações de array
 # =============================================================================
 # array = np.random.randint(0, 20, (3, 3))
