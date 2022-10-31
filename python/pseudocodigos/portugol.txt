@@ -1,0 +1,13 @@
+INICIO;
+	leia(idade);
+	se(idade > 18) {
+		escreva("Você tem a obrigação de votar!");
+	
+	}
+	senão se(idade >= 16 && idade <= 18) {
+		escreva("Pode votar se quiser!");
+	}
+	senão {
+		escreva("Você ainda não tem idade para isso!");
+	}
+FIM;
